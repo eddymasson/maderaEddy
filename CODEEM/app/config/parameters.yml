@@ -1,0 +1,12 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: mysql-yearl.alwaysdata.net
+    database_port: null
+    database_name: yearl_madera
+    database_user: yearl
+    database_password: lady45
+    mailer_transport: smtp
+    mailer_host: mysql-yearl.alwaysdata.net
+    mailer_user: null
+    mailer_password: null
+    secret: 505a08cc42ff4042f7644d578c7bf2299924f71e

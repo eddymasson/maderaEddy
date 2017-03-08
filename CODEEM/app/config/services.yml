@@ -1,0 +1,54 @@
+# Learn more about services, parameters and containers at
+# http://symfony.com/doc/current/service_container.html
+parameters:
+#    parameter_name: value
+
+services:
+    # ...
+    admin.category:
+        class: AppBundle\Admin\CategoryAdmin
+        arguments: [~, AppBundle\Entity\Category, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Category }
+
+    admin.blog_post:
+        class: AppBundle\Admin\BlogPostAdmin
+        arguments: [~, AppBundle\Entity\BlogPost, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Blog post }
+
+    admin.fournisseur:
+        class: AppBundle\Admin\FournisseurAdmin
+        arguments: [~, AppBundle\Entity\Fournisseur, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Fournisseur }
+
+    admin.familleComposant:
+        class: AppBundle\Admin\FamillecomposantAdmin
+        arguments: [~, AppBundle\Entity\Famillecomposant, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Famille de composant , group : "Bureau d'étude" }
+
+    admin.gamme:
+        class: AppBundle\Admin\GammeAdmin
+        arguments: [~, AppBundle\Entity\Gamme, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Gamme , group : "Bureau d'étude"}
+
+    admin.module:
+        class: AppBundle\Admin\ModuleAdmin
+        arguments: [~, AppBundle\Entity\Module, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Module , group : "Bureau d'étude" }
+
+    admin.insee:
+        class: AppBundle\Admin\InseeAdmin
+        arguments: [~, AppBundle\Entity\Insee, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Villes }
+
+    admin.client:
+        class: AppBundle\Admin\ClientAdmin
+        arguments: [~, AppBundle\Entity\Client, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Clients }
