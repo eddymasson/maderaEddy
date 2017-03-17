@@ -245,3 +245,4 @@ class Client
         return $this->ville;
     }
 }
+

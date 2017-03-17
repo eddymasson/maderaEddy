@@ -5,29 +5,37 @@ namespace AppBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Produit
+/**
+ * Module
+ * @ORM\Table(name="Produit")
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\ProduitRepository")
  */
 class Produit
 {
     /**
-     * @var string
+* @ORM\Column(name="nomproduit", type="string", length=45)
      */
     private $nomproduit;
 
     /**
-     * @var integer
+    * @ORM\Column(name="idproduit", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
      */
     private $idproduit;
 
     /**
      * @var \AppBundle\Entity\Gamme
+      @ORM\ManyToOne(targetEntity="Gamme")
+     * @ORM\JoinColumn(name="gamme_idgamme", referencedColumnName="idGamme")
      */
     private $gammegamme;
 
     /**
      * @var \AppBundle\Entity\Projet
-     */
-    private $projetprojet;
+     @ORM\ManyToOne(targetEntity="Projet")
+     * @ORM\JoinColumn(name="projet_idprojet", referencedColumnName="idprojet")
+     */    private $projetprojet;
 
 
     /**

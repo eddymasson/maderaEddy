@@ -289,3 +289,4 @@ class Module
         return $this->gamme;
     }
 }
+

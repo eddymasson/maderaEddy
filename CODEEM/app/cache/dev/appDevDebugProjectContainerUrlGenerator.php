@@ -150,6 +150,7 @@ class appDevDebugProjectContainerUrlGenerator extends Symfony\Component\Routing\
         'sonata_user_admin_security_logout' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'Sonata\\UserBundle\\Controller\\AdminSecurityController::logoutAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/admin/logout',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
         'Devis' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'AppBundle\\Controller\\DevisController::indexAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/Devis',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
         'AddDevis' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'AppBundle\\Controller\\DevisController::ajouterAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/AddDevis',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
+        'GetDevis' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'AppBundle\\Controller\\DevisController::GetDevisAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/getDevis',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
     );
         }
     }

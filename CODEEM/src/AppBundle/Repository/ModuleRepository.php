@@ -1,5 +1,7 @@
-<?php 
+<?php
+
 namespace AppBundle\Repository;
+
 /**
  * BlogPostRepository
  *

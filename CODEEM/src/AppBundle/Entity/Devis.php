@@ -6,35 +6,40 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Devis
+* @ORM\Table(name="Devis")
+* @ORM\Entity(repositoryClass="AppBundle\Repository\DevisRepository")
  */
 class Devis
 {
-     /**
-     *@AppBundle\ManyToOne(targetEntity="Commande",inversedBy="Devis")
-     *@AppBundle\JoinColumn(name="Commande_idCommande", referencedColumnName="idCommande")
-     */
     /**
      * @var string
+        * @ORM\Column(name="type", type="string")
      */
     private $type;
 
     /**
      * @var string
+        * @ORM\Column(name="etat", type="string")
      */
     private $etat;
 
     /**
      * @var integer
-     */
+  /**
+ * @ORM\Id
+ * @ORM\Column(type="integer")
+ * @ORM\GeneratedValue(strategy="AUTO")
+ */
+     
     private $iddevis;
 
     /**
      * @var \AppBundle\Entity\Commande
+     
+    * @ORM\OneToOne(targetEntity="Commande")
+    * @ORM\JoinColumn(name="commande_idcommande", referencedColumnName="idcommande")
      */
-
-
     private $commandecommande;
- //   private $commandecommande;
 
 
     /**
@@ -58,7 +63,9 @@ class Devis
      */
     public function getType()
     {
+
         return $this->type;
+
     }
 
     /**

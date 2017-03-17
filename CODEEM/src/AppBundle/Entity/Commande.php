@@ -6,13 +6,11 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Commande
- */
+* @ORM\Table(name="Commande")
+* @ORM\Entity(repositoryClass="AppBundle\Repository\CommandeRepository")
+*/
 class Commande
 {
-
-      /**
-     *@AppBundle\OneToMany(targetEntity="Devis", mappedBy="Commande")
-     */
     /**
      * @var \DateTime
      */
@@ -30,14 +28,22 @@ class Commande
 
     /**
      * @var integer
-     */
-  
-
+     /**
+  /**
+ * @ORM\Id
+ * @ORM\Column(type="integer")
+ * @ORM\GeneratedValue(strategy="AUTO")
+ */
+     
     private $idcommande;
 
     /**
      * @var \AppBundle\Entity\Livraison
+
+    * @ORM\ManyToOne(targetEntity="Livraison")
+     * @ORM\JoinColumn(name="livraison_idlivraison", referencedColumnName="idlivraison")
      */
+     
     private $livraisonlivraison;
 
 
@@ -51,6 +57,7 @@ class Commande
     public function setDatecommande($datecommande)
     {
         $this->datecommande = $datecommande;
+ 
 
         return $this;
     }
@@ -123,6 +130,7 @@ class Commande
     public function setIdcommande($idcommande)
     {
         $this->idcommande = $idcommande;
+
 
         return $this;
     }

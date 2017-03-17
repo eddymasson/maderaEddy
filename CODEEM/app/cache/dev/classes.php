@@ -4970,7 +4970,7 @@ $previousText .=', '.get_class($previous).'(code: '.$previous->getCode().'): '.$
 }
 $str ='[object] ('.get_class($e).'(code: '.$e->getCode().'): '.$e->getMessage().' at '.$e->getFile().':'.$e->getLine().$previousText.')';
 if ($this->includeStacktraces) {
-$str .="\n[stacktrace]\n".$e->getTraceAsString();
+$str .="\n[stacktrace]\n".$e->getTraceAsString()."\n";
 }
 return $str;
 }
@@ -4990,6 +4990,9 @@ return str_replace('\\/','/', @json_encode($data));
 protected function replaceNewlines($str)
 {
 if ($this->allowInlineLineBreaks) {
+if (0 === strpos($str,'{')) {
+return str_replace(array('\r','\n'), array("\r","\n"), $str);
+}
 return $str;
 }
 return str_replace(array("\r\n","\r","\n"),' ', $str);
@@ -8039,8 +8042,12 @@ $this->datagrid->getPager()->setMaxPageLinks($this->maxPageLinks);
 $mapper = new DatagridMapper($this->getDatagridBuilder(), $this->datagrid, $this);
 $this->configureDatagridFilters($mapper);
 if ($this->isChild() && $this->getParentAssociationMapping() && !$mapper->has($this->getParentAssociationMapping())) {
-$mapper->add($this->getParentAssociationMapping(), null, array('show_filter'=> false,'label'=> false,'field_type'=>'sonata_type_model_hidden','field_options'=> array('model_manager'=> $this->getModelManager(),
-),'operator_type'=>'hidden',
+$modelHiddenType = method_exists('Symfony\Component\Form\AbstractType','getBlockPrefix')
+?'Sonata\AdminBundle\Form\Type\ModelHiddenType':'sonata_type_model_hidden';
+$hiddenType = method_exists('Symfony\Component\Form\AbstractType','getBlockPrefix')
+?'Symfony\Component\Form\Extension\Core\Type\HiddenType':'hidden';
+$mapper->add($this->getParentAssociationMapping(), null, array('show_filter'=> false,'label'=> false,'field_type'=> $modelHiddenType,'field_options'=> array('model_manager'=> $this->getModelManager(),
+),'operator_type'=> $hiddenType,
 ), null, null, array('admin_code'=> $this->getParent()->getCode(),
 ));
 }
@@ -8182,13 +8189,21 @@ return $subClass;
 public function getBatchActions()
 {
 $actions = array();
-if ($this->hasRoute('delete') && $this->isGranted('DELETE')) {
+if ($this->hasRoute('delete') && $this->hasAccess('delete')) {
 $actions['delete'] = array('label'=>'action_delete','translation_domain'=>'SonataAdminBundle','ask_confirmation'=> true, );
 }
 $actions = $this->configureBatchActions($actions);
 foreach ($this->getExtensions() as $extension) {
 if (method_exists($extension,'configureBatchActions')) {
 $actions = $extension->configureBatchActions($this, $actions);
+}
+}
+foreach ($actions as $name => &$action) {
+if (!array_key_exists('label', $action)) {
+$action['label'] = $this->getTranslationLabel($name,'batch','label');
+}
+if (!array_key_exists('translation_domain', $action)) {
+$action['translation_domain'] = $this->getTranslationDomain();
 }
 }
 return $actions;
@@ -9142,11 +9157,11 @@ return $list;
 public function getDashboardActions()
 {
 $actions = array();
-if ($this->hasRoute('create') && $this->isGranted('CREATE')) {
+if ($this->hasRoute('create') && $this->hasAccess('create')) {
 $actions['create'] = array('label'=>'link_add','translation_domain'=>'SonataAdminBundle','template'=> $this->getTemplate('action_create'),'url'=> $this->generateUrl('create'),'icon'=>'plus-circle',
 );
 }
-if ($this->hasRoute('list') && $this->isGranted('LIST')) {
+if ($this->hasRoute('list') && $this->hasAccess('list')) {
 $actions['list'] = array('label'=>'link_list','translation_domain'=>'SonataAdminBundle','url'=> $this->generateUrl('list'),'icon'=>'list',
 );
 }
@@ -10055,7 +10070,7 @@ throw new \RuntimeException('Invalid format for the Pool::adminClass property');
 if (count($this->adminClasses[$class]) > 1) {
 throw new \RuntimeException(sprintf('Unable to find a valid admin for the class: %s, there are too many registered: %s',
 $class,
-implode(',', $this->adminClasses[$class])
+implode(', ', $this->adminClasses[$class])
 ));
 }
 return $this->getInstance($this->adminClasses[$class][0]);
@@ -10567,7 +10582,7 @@ public function addIdentifier($name, $type = null, array $fieldDescriptionOption
 {
 $fieldDescriptionOptions['identifier'] = true;
 if (!isset($fieldDescriptionOptions['route']['name'])) {
-$routeName = ($this->admin->isGranted('EDIT') && $this->admin->hasRoute('edit')) ?'edit':'show';
+$routeName = ($this->admin->hasAccess('edit') && $this->admin->hasRoute('edit')) ?'edit':'show';
 $fieldDescriptionOptions['route']['name'] = $routeName;
 }
 if (!isset($fieldDescriptionOptions['route']['parameters'])) {
@@ -11905,11 +11920,18 @@ $admin = clone $this->getAdmin($options);
 if ($admin->hasParentFieldDescription()) {
 $admin->getParentFieldDescription()->setAssociationAdmin($admin);
 }
-if ($options['delete'] && $admin->isGranted('DELETE')) {
+if ($options['delete'] && $admin->hasAccess('delete')) {
 if (!array_key_exists('translation_domain', $options['delete_options']['type_options'])) {
 $options['delete_options']['type_options']['translation_domain'] = $admin->getTranslationDomain();
 }
-$builder->add('_delete', $options['delete_options']['type'], $options['delete_options']['type_options']);
+$builder->add('_delete',
+$options['delete_options']['type'],
+array_merge(
+$options['delete_options']['type_options'],
+array('attr'=> array('class'=>'sonata-admin-type-delete-checkbox'),
+)
+)
+);
 }
 if ($builder->getData() === null) {
 $p = new PropertyAccessor(false, true);
@@ -14023,7 +14045,7 @@ $xEditableChoices = $choices;
 foreach ($choices as $value => $text) {
 if ($catalogue) {
 if (null !== $this->translator) {
-$this->translator->trans($text, array(), $catalogue);
+$text = $this->translator->trans($text, array(), $catalogue);
 } elseif (method_exists($fieldDescription->getAdmin(),'trans')) {
 $text = $fieldDescription->getAdmin()->trans($text, array(), $catalogue);
 }

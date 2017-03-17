@@ -6,7 +6,9 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Livraison
- */
+* @ORM\Table(name="Livraison")
+* @ORM\Entity(repositoryClass="AppBundle\Repository\LivraisonRepository")
+*/
 class Livraison
 {
     /**
@@ -26,7 +28,11 @@ class Livraison
 
     /**
      * @var integer
-     */
+
+ * @ORM\Id
+ * @ORM\Column(type="integer")
+ * @ORM\GeneratedValue(strategy="AUTO")
+ */
     private $idlivraison;
 
 

@@ -6,41 +6,52 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Composant
+  * @ORM\Table(name="Composant")
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\ComposantRepository")
  */
 class Composant
 {
     /**
      * @var string
+      @ORM\Column(name="unite", type="string", length=45)
      */
     private $unite;
 
     /**
      * @var string
+      * @ORM\Column(name="nature", type="string", length=45)
      */
+     
     private $nature;
 
     /**
      * @var float
+       * @ORM\Column(name="section", type="float", length=45)
      */
     private $section;
 
     /**
      * @var float
+      * @ORM\Column(name="longueur", type="float", length=45)
      */
     private $longueur;
 
     /**
      * @var float
+        * @ORM\Column(name="largeur", type="float", length=45)
      */
     private $largeur;
 
     /**
      * @var float
+        * @ORM\Column(name="epaisseur", type="float", length=45)
+     
      */
     private $epaisseur;
 
     /**
      * @var float
+       * @ORM\Column(name="prix", type="float")
      */
     private $prix;
 
@@ -56,11 +67,15 @@ class Composant
 
     /**
      * @var integer
+       * @ORM\Column(name="quantite", type="float")
      */
     private $quantite;
 
     /**
      * @var integer
+      * @ORM\Column(name="idcomposant", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
      */
     private $idcomposant;
 
@@ -76,6 +91,8 @@ class Composant
 
     /**
      * @var \AppBundle\Entity\Module
+        * @ORM\ManyToOne(targetEntity="Module")
+     * @ORM\JoinColumn(name="Module_idModule", referencedColumnName="idmodule")
      */
     private $modulemodule;
 

@@ -34,10 +34,12 @@ sonata_user:
     resource: '@SonataUserBundle/Resources/config/routing/admin_security.xml'
     prefix: /admin
 
-
 Devis:
     path:     /Devis
     defaults: { _controller: AppBundle:Devis:index }
 AddDevis:
     path:     /AddDevis
     defaults: { _controller: AppBundle:Devis:ajouter }
+GetDevis:
+    path:     /getDevis
+    defaults: { _controller: AppBundle:Devis:GetDevis }

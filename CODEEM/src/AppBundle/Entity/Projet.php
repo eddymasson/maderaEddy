@@ -6,31 +6,46 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Projet
+ * @ORM\Table(name="Projet")
+* @ORM\Entity(repositoryClass="AppBundle\Repository\ProjetRepository")
  */
+ 
 class Projet
 {
     /**
      * @var string
+             * @ORM\Column(name="description", type="string")
      */
     private $description;
 
     /**
      * @var \DateTime
+             * @ORM\Column(name="datecreationprojet", type="datetime")
      */
     private $datecreationprojet;
 
     /**
      * @var integer
-     */
+
+  /**
+ * @ORM\Id
+ * @ORM\Column(type="integer")
+ * @ORM\GeneratedValue(strategy="AUTO")
+ */
+     
     private $idprojet;
 
     /**
      * @var \AppBundle\Entity\Client
+
+
      */
     private $idclient;
 
     /**
      * @var \AppBundle\Entity\Devis
+      @ORM\ManyToOne(targetEntity="Devis")
+     * @ORM\JoinColumn(name="devis_iddevis", referencedColumnName="iddevis")
      */
     private $devisdevis;
 

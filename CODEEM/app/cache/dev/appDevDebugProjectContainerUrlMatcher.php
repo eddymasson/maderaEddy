@@ -918,6 +918,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'AppBundle\\Controller\\DevisController::ajouterAction',  '_route' => 'AddDevis',);
         }
 
+        // GetDevis
+        if ($pathinfo === '/getDevis') {
+            return array (  '_controller' => 'AppBundle\\Controller\\DevisController::GetDevisAction',  '_route' => 'GetDevis',);
+        }
+
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();
     }
 }

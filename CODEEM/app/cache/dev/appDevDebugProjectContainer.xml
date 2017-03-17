@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
   <parameters>
-    <parameter key="kernel.root_dir">C:\wamp\www\CODE\app</parameter>
+    <parameter key="kernel.root_dir">C:\wamp64\www\Madera MAJ\app</parameter>
     <parameter key="kernel.environment">dev</parameter>
     <parameter key="kernel.debug">true</parameter>
     <parameter key="kernel.name">app</parameter>
-    <parameter key="kernel.cache_dir">C:\wamp\www\CODE\app\cache\dev</parameter>
-    <parameter key="kernel.logs_dir">C:\wamp\www\CODE\app\logs</parameter>
+    <parameter key="kernel.cache_dir">C:\wamp64\www\Madera MAJ\app\cache\dev</parameter>
+    <parameter key="kernel.logs_dir">C:\wamp64\www\Madera MAJ\app\logs</parameter>
     <parameter key="kernel.bundles" type="collection">
       <parameter key="FrameworkBundle">Symfony\Bundle\FrameworkBundle\FrameworkBundle</parameter>
       <parameter key="SecurityBundle">Symfony\Bundle\SecurityBundle\SecurityBundle</parameter>
@@ -31,97 +31,97 @@
     <parameter key="kernel.bundles_metadata" type="collection">
       <parameter key="FrameworkBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\FrameworkBundle</parameter>
       </parameter>
       <parameter key="SecurityBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Bundle\SecurityBundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Bundle\SecurityBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\SecurityBundle</parameter>
       </parameter>
       <parameter key="TwigBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\TwigBundle</parameter>
       </parameter>
       <parameter key="MonologBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\symfony\monolog-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\symfony\monolog-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\MonologBundle</parameter>
       </parameter>
       <parameter key="SwiftmailerBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\symfony\swiftmailer-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\symfony\swiftmailer-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\SwiftmailerBundle</parameter>
       </parameter>
       <parameter key="DoctrineBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\doctrine\doctrine-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\doctrine\doctrine-bundle</parameter>
         <parameter key="namespace">Doctrine\Bundle\DoctrineBundle</parameter>
       </parameter>
       <parameter key="SensioFrameworkExtraBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\sensio\framework-extra-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\sensio\framework-extra-bundle</parameter>
         <parameter key="namespace">Sensio\Bundle\FrameworkExtraBundle</parameter>
       </parameter>
       <parameter key="AppBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\src\AppBundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\src\AppBundle</parameter>
         <parameter key="namespace">AppBundle</parameter>
       </parameter>
       <parameter key="FOSUserBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle</parameter>
         <parameter key="namespace">FOS\UserBundle</parameter>
       </parameter>
       <parameter key="SonataUserBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\sonata-project\user-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle</parameter>
         <parameter key="namespace">Sonata\UserBundle</parameter>
       </parameter>
       <parameter key="SonataCoreBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\sonata-project\core-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle</parameter>
         <parameter key="namespace">Sonata\CoreBundle</parameter>
       </parameter>
       <parameter key="SonataBlockBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\sonata-project\block-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\sonata-project\block-bundle</parameter>
         <parameter key="namespace">Sonata\BlockBundle</parameter>
       </parameter>
       <parameter key="KnpMenuBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\knplabs\knp-menu-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\knplabs\knp-menu-bundle</parameter>
         <parameter key="namespace">Knp\Bundle\MenuBundle</parameter>
       </parameter>
       <parameter key="SonataDoctrineORMAdminBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\sonata-project\doctrine-orm-admin-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\sonata-project\doctrine-orm-admin-bundle</parameter>
         <parameter key="namespace">Sonata\DoctrineORMAdminBundle</parameter>
       </parameter>
       <parameter key="SonataAdminBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\sonata-project\admin-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle</parameter>
         <parameter key="namespace">Sonata\AdminBundle</parameter>
       </parameter>
       <parameter key="DebugBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Bundle\DebugBundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Bundle\DebugBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\DebugBundle</parameter>
       </parameter>
       <parameter key="WebProfilerBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\WebProfilerBundle</parameter>
       </parameter>
       <parameter key="SensioDistributionBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\sensio\distribution-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\sensio\distribution-bundle</parameter>
         <parameter key="namespace">Sensio\Bundle\DistributionBundle</parameter>
       </parameter>
       <parameter key="SensioGeneratorBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp\www\CODE\vendor\sensio\generator-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\Madera MAJ\vendor\sensio\generator-bundle</parameter>
         <parameter key="namespace">Sensio\Bundle\GeneratorBundle</parameter>
       </parameter>
     </parameter>
@@ -206,7 +206,7 @@
       <parameter key="cookie_httponly">true</parameter>
       <parameter key="gc_probability">1</parameter>
     </parameter>
-    <parameter key="session.save_path">C:\wamp\www\CODE\app\cache\dev/sessions</parameter>
+    <parameter key="session.save_path">C:\wamp64\www\Madera MAJ\app\cache\dev/sessions</parameter>
     <parameter key="session.metadata.update_threshold">0</parameter>
     <parameter key="security.secure_random.class">Symfony\Component\Security\Core\Util\SecureRandom</parameter>
     <parameter key="form.resolved_type_factory.class">Symfony\Component\Form\ResolvedFormTypeFactory</parameter>
@@ -264,7 +264,7 @@
     <parameter key="data_collector.form.extractor.class">Symfony\Component\Form\Extension\DataCollector\FormDataExtractor</parameter>
     <parameter key="profiler_listener.only_exceptions">false</parameter>
     <parameter key="profiler_listener.only_master_requests">false</parameter>
-    <parameter key="profiler.storage.dsn">file:C:\wamp\www\CODE\app\cache\dev/profiler</parameter>
+    <parameter key="profiler.storage.dsn">file:C:\wamp64\www\Madera MAJ\app\cache\dev/profiler</parameter>
     <parameter key="profiler.storage.username"></parameter>
     <parameter key="profiler.storage.password"></parameter>
     <parameter key="profiler.storage.lifetime">86400</parameter>
@@ -288,7 +288,7 @@
     <parameter key="router.request_context.host">localhost</parameter>
     <parameter key="router.request_context.scheme">http</parameter>
     <parameter key="router.request_context.base_url"></parameter>
-    <parameter key="router.resource">C:\wamp\www\CODE\app/config/routing_dev.yml</parameter>
+    <parameter key="router.resource">C:\wamp64\www\Madera MAJ\app/config/routing_dev.yml</parameter>
     <parameter key="router.cache_class_prefix">appDevDebugProjectContainer</parameter>
     <parameter key="request_listener.http_port">80</parameter>
     <parameter key="request_listener.https_port">443</parameter>
@@ -299,7 +299,7 @@
     <parameter key="debug.stopwatch.class">Symfony\Component\Stopwatch\Stopwatch</parameter>
     <parameter key="debug.error_handler.throw_at">-1</parameter>
     <parameter key="debug.event_dispatcher.class">Symfony\Component\HttpKernel\Debug\TraceableEventDispatcher</parameter>
-    <parameter key="debug.container.dump">C:\wamp\www\CODE\app\cache\dev/appDevDebugProjectContainer.xml</parameter>
+    <parameter key="debug.container.dump">C:\wamp64\www\Madera MAJ\app\cache\dev/appDevDebugProjectContainer.xml</parameter>
     <parameter key="debug.controller_resolver.class">Symfony\Component\HttpKernel\Controller\TraceableControllerResolver</parameter>
     <parameter key="security.context.class">Symfony\Component\Security\Core\SecurityContext</parameter>
     <parameter key="security.user_checker.class">Symfony\Component\Security\Core\User\UserChecker</parameter>
@@ -495,7 +495,7 @@
     <parameter key="swiftmailer.mailer.default.transport.smtp.timeout">30</parameter>
     <parameter key="swiftmailer.mailer.default.transport.smtp.source_ip">null</parameter>
     <parameter key="swiftmailer.mailer.default.transport.smtp.local_domain">null</parameter>
-    <parameter key="swiftmailer.spool.default.memory.path">C:\wamp\www\CODE\app\cache\dev/swiftmailer/spool/default</parameter>
+    <parameter key="swiftmailer.spool.default.memory.path">C:\wamp64\www\Madera MAJ\app\cache\dev/swiftmailer/spool/default</parameter>
     <parameter key="swiftmailer.mailer.default.spool.enabled">true</parameter>
     <parameter key="swiftmailer.mailer.default.plugin.impersonate">null</parameter>
     <parameter key="swiftmailer.mailer.default.single_address">null</parameter>
@@ -614,7 +614,7 @@
     <parameter key="doctrine.orm.second_level_cache.cache_configuration.class">Doctrine\ORM\Cache\CacheConfiguration</parameter>
     <parameter key="doctrine.orm.second_level_cache.regions_configuration.class">Doctrine\ORM\Cache\RegionsConfiguration</parameter>
     <parameter key="doctrine.orm.auto_generate_proxy_classes">true</parameter>
-    <parameter key="doctrine.orm.proxy_dir">C:\wamp\www\CODE\app\cache\dev/doctrine/orm/Proxies</parameter>
+    <parameter key="doctrine.orm.proxy_dir">C:\wamp64\www\Madera MAJ\app\cache\dev/doctrine/orm/Proxies</parameter>
     <parameter key="doctrine.orm.proxy_namespace">Proxies</parameter>
     <parameter key="sensio_framework_extra.view.guesser.class">Sensio\Bundle\FrameworkExtraBundle\Templating\TemplateGuesser</parameter>
     <parameter key="sensio_framework_extra.controller.listener.class">Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener</parameter>
@@ -2144,7 +2144,7 @@
               <service class="Symfony\Bundle\FrameworkBundle\CacheWarmer\TemplateFinder" public="false">
                 <argument type="service" id="kernel"/>
                 <argument type="service" id="templating.filename_parser"/>
-                <argument>C:\wamp\www\CODE\app/Resources</argument>
+                <argument>C:\wamp64\www\Madera MAJ\app/Resources</argument>
               </service>
             </argument>
             <argument type="service" id="templating.locator"/>
@@ -2171,7 +2171,7 @@
               <service class="Symfony\Bundle\FrameworkBundle\CacheWarmer\TemplateFinder" public="false">
                 <argument type="service" id="kernel"/>
                 <argument type="service" id="templating.filename_parser"/>
-                <argument>C:\wamp\www\CODE\app/Resources</argument>
+                <argument>C:\wamp64\www\Madera MAJ\app/Resources</argument>
               </service>
             </argument>
             <argument type="collection"/>
@@ -2184,7 +2184,7 @@
             <argument type="service">
               <service class="Symfony\Bundle\TwigBundle\TemplateIterator" public="false">
                 <argument type="service" id="kernel"/>
-                <argument>C:\wamp\www\CODE\app</argument>
+                <argument>C:\wamp64\www\Madera MAJ\app</argument>
                 <argument type="collection"/>
               </service>
             </argument>
@@ -2216,7 +2216,7 @@
     <service id="filesystem" class="Symfony\Component\Filesystem\Filesystem"/>
     <service id="file_locator" class="Symfony\Component\HttpKernel\Config\FileLocator">
       <argument type="service" id="kernel"/>
-      <argument>C:\wamp\www\CODE\app/Resources</argument>
+      <argument>C:\wamp64\www\Madera MAJ\app/Resources</argument>
     </service>
     <service id="uri_signer" class="Symfony\Component\HttpKernel\UriSigner">
       <argument>505a08cc42ff4042f7644d578c7bf2299924f71e</argument>
@@ -2338,390 +2338,390 @@
         </argument>
       </argument>
       <argument type="collection">
-        <argument key="cache_dir">C:\wamp\www\CODE\app\cache\dev/translations</argument>
+        <argument key="cache_dir">C:\wamp64\www\Madera MAJ\app\cache\dev/translations</argument>
         <argument key="debug">true</argument>
         <argument key="resource_files" type="collection">
           <argument key="af" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.af.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.af.xlf</argument>
           </argument>
           <argument key="ar" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.ar.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.ar.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.ar.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.ar.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.ar.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.ar.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.ar.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.ar.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.ar.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.ar.xliff</argument>
           </argument>
           <argument key="az" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.az.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.az.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.az.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.az.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.az.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.az.xlf</argument>
           </argument>
           <argument key="bg" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.bg.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.bg.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.bg.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.bg.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.bg.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.bg.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.bg.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.bg.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.bg.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.bg.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.bg.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.bg.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.bg.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.bg.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.bg.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.bg.xliff</argument>
           </argument>
           <argument key="ca" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.ca.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.ca.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.ca.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.ca.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.ca.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.ca.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.ca.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.ca.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.ca.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.ca.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.ca.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.ca.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.ca.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.ca.xliff</argument>
           </argument>
           <argument key="cs" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.cs.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.cs.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.cs.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.cs.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.cs.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.cs.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.cs.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.cs.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.cs.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.cs.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.cs.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.cs.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.cs.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.cs.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.cs.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.cs.xliff</argument>
           </argument>
           <argument key="cy" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.cy.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.cy.xlf</argument>
           </argument>
           <argument key="da" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.da.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.da.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.da.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.da.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.da.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.da.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.da.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.da.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.da.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.da.yml</argument>
           </argument>
           <argument key="de" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.de.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.de.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.de.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.de.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.de.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.de.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.de.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\block-bundle/Resources/translations\SonataBlockBundle.de.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.de.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.de.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.de.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.de.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.de.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.de.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.de.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.de.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\block-bundle/Resources/translations\SonataBlockBundle.de.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.de.xliff</argument>
           </argument>
           <argument key="el" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.el.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.el.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.el.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.el.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.el.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.el.xlf</argument>
           </argument>
           <argument key="en" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.en.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.en.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.en.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.en.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.en.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\FOSUserBundle.en.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.en.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.en.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\block-bundle/Resources/translations\SonataBlockBundle.en.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.en.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.en.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.en.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.en.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.en.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.en.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\FOSUserBundle.en.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.en.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.en.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\block-bundle/Resources/translations\SonataBlockBundle.en.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.en.xliff</argument>
           </argument>
           <argument key="es" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.es.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.es.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.es.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.es.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.es.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.es.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.es.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.es.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.es.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.es.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.es.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.es.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.es.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.es.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.es.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.es.xliff</argument>
           </argument>
           <argument key="et" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.et.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.et.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.et.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.et.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.et.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.et.yml</argument>
           </argument>
           <argument key="eu" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.eu.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.eu.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.eu.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.eu.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.eu.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.eu.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.eu.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.eu.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.eu.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.eu.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.eu.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.eu.xliff</argument>
           </argument>
           <argument key="fa" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.fa.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.fa.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.fa.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.fa.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.fa.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.fa.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.fa.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.fa.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.fa.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.fa.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.fa.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.fa.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.fa.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.fa.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.fa.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.fa.xliff</argument>
           </argument>
           <argument key="fi" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.fi.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.fi.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.fi.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.fi.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\FOSUserBundle.fi.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.fi.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.fi.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.fi.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.fi.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.fi.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.fi.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\FOSUserBundle.fi.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.fi.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.fi.xliff</argument>
           </argument>
           <argument key="fr" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.fr.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.fr.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.fr.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.fr.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.fr.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\FOSUserBundle.fr.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.fr.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.fr.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\block-bundle/Resources/translations\SonataBlockBundle.fr.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.fr.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.fr.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.fr.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.fr.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.fr.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.fr.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\FOSUserBundle.fr.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.fr.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.fr.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\block-bundle/Resources/translations\SonataBlockBundle.fr.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.fr.xliff</argument>
           </argument>
           <argument key="gl" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.gl.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.gl.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.gl.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.gl.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.gl.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.gl.xlf</argument>
           </argument>
           <argument key="he" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.he.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.he.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.he.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.he.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.he.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.he.xlf</argument>
           </argument>
           <argument key="hr" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.hr.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.hr.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.hr.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.hr.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.hr.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\FOSUserBundle.hr.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.hr.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.hr.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.hr.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.hr.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.hr.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.hr.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.hr.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.hr.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\FOSUserBundle.hr.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.hr.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.hr.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.hr.xliff</argument>
           </argument>
           <argument key="hu" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.hu.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.hu.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.hu.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.hu.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.hu.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.hu.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.hu.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\block-bundle/Resources/translations\SonataBlockBundle.hu.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.hu.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.hu.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.hu.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.hu.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.hu.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.hu.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.hu.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.hu.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\block-bundle/Resources/translations\SonataBlockBundle.hu.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.hu.xliff</argument>
           </argument>
           <argument key="hy" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.hy.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.hy.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.hy.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.hy.xlf</argument>
           </argument>
           <argument key="id" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.id.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.id.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.id.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.id.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.id.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.id.xlf</argument>
           </argument>
           <argument key="it" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.it.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.it.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.it.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.it.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.it.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\FOSUserBundle.it.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.it.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.it.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\block-bundle/Resources/translations\SonataBlockBundle.it.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.it.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.it.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.it.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.it.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.it.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.it.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\FOSUserBundle.it.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.it.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.it.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\block-bundle/Resources/translations\SonataBlockBundle.it.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.it.xliff</argument>
           </argument>
           <argument key="ja" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.ja.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.ja.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.ja.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.ja.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.ja.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.ja.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.ja.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.ja.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.ja.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.ja.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.ja.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.ja.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.ja.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.ja.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.ja.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.ja.xliff</argument>
           </argument>
           <argument key="lb" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.lb.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.lb.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.lb.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.lb.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.lb.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.lb.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.lb.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.lb.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.lb.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.lb.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.lb.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.lb.xliff</argument>
           </argument>
           <argument key="lt" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.lt.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.lt.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.lt.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.lt.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.lt.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.lt.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.lt.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.lt.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.lt.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.lt.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.lt.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.lt.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.lt.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.lt.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.lt.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.lt.xliff</argument>
           </argument>
           <argument key="lv" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.lv.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.lv.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.lv.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.lv.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.lv.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.lv.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.lv.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.lv.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.lv.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.lv.yml</argument>
           </argument>
           <argument key="mn" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.mn.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.mn.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.mn.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.mn.xlf</argument>
           </argument>
           <argument key="nl" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.nl.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.nl.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.nl.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.nl.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.nl.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.nl.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.nl.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.nl.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.nl.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.nl.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.nl.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.nl.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.nl.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.nl.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.nl.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.nl.xliff</argument>
           </argument>
           <argument key="nn" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.nn.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.nn.xlf</argument>
           </argument>
           <argument key="no" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.no.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.no.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.no.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.no.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.no.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.no.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.no.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.no.xliff</argument>
           </argument>
           <argument key="pl" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.pl.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.pl.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.pl.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.pl.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.pl.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.pl.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.pl.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.pl.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.pl.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.pl.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.pl.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.pl.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.pl.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.pl.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.pl.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.pl.xliff</argument>
           </argument>
           <argument key="pt" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.pt.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.pt.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.pt.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.pt.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.pt.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.pt.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.pt.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.pt.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.pt.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.pt.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.pt.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.pt.xliff</argument>
           </argument>
           <argument key="pt_BR" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.pt_BR.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.pt_BR.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.pt_BR.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.pt_BR.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.pt_BR.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.pt_BR.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.pt_BR.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.pt_BR.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.pt_BR.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.pt_BR.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.pt_BR.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.pt_BR.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.pt_BR.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.pt_BR.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.pt_BR.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.pt_BR.xliff</argument>
           </argument>
           <argument key="ro" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.ro.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.ro.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.ro.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.ro.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.ro.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.ro.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.ro.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.ro.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.ro.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.ro.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.ro.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.ro.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.ro.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.ro.xliff</argument>
           </argument>
           <argument key="ru" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.ru.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.ru.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.ru.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.ru.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.ru.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.ru.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.ru.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.ru.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.ru.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.ru.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.ru.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.ru.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.ru.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.ru.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.ru.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.ru.xliff</argument>
           </argument>
           <argument key="sk" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.sk.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.sk.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.sk.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.sk.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.sk.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.sk.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.sk.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.sk.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.sk.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.sk.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.sk.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.sk.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.sk.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.sk.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.sk.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.sk.xliff</argument>
           </argument>
           <argument key="sl" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.sl.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.sl.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.sl.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.sl.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.sl.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.sl.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.sl.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.sl.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.sl.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.sl.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.sl.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.sl.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.sl.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.sl.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.sl.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.sl.xliff</argument>
           </argument>
           <argument key="sq" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.sq.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.sq.xlf</argument>
           </argument>
           <argument key="sr_Cyrl" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.sr_Cyrl.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.sr_Cyrl.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.sr_Cyrl.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.sr_Cyrl.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.sr_Cyrl.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.sr_Cyrl.xlf</argument>
           </argument>
           <argument key="sr_Latn" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.sr_Latn.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.sr_Latn.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.sr_Latn.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.sr_Latn.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.sr_Latn.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.sr_Latn.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.sr_Latn.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.sr_Latn.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.sr_Latn.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.sr_Latn.yml</argument>
           </argument>
           <argument key="sv" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.sv.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.sv.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.sv.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.sv.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.sv.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.sv.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.sv.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.sv.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.sv.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.sv.yml</argument>
           </argument>
           <argument key="th" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.th.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.th.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.th.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.th.xlf</argument>
           </argument>
           <argument key="tr" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.tr.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.tr.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.tr.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.tr.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.tr.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.tr.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.tr.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.tr.yml</argument>
           </argument>
           <argument key="uk" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.uk.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.uk.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.uk.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.uk.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.uk.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.uk.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.uk.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.uk.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.uk.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.uk.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.uk.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.uk.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.uk.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.uk.xliff</argument>
           </argument>
           <argument key="vi" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.vi.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.vi.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.vi.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.vi.xlf</argument>
           </argument>
           <argument key="zh_CN" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.zh_CN.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.zh_CN.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.zh_CN.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.zh_CN.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.zh_CN.yml</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.zh_CN.xliff</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.zh_CN.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.zh_CN.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/translations\validators.zh_CN.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.zh_CN.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.zh_CN.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\validators.zh_CN.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/translations\SonataCoreBundle.zh_CN.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.zh_CN.xliff</argument>
           </argument>
           <argument key="zh_TW" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.zh_TW.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.zh_TW.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Validator/Resources/translations\validators.zh_TW.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/translations\SonataUserBundle.zh_TW.xliff</argument>
           </argument>
           <argument key="pt_PT" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.pt_PT.xlf</argument>
-            <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.pt_PT.yml</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.pt_PT.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/translations\FOSUserBundle.pt_PT.yml</argument>
           </argument>
           <argument key="ua" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.ua.xlf</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Security\Core/Resources/translations\security.ua.xlf</argument>
           </argument>
           <argument key="sv_SE" type="collection">
-            <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.sv_SE.xliff</argument>
+            <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/translations\SonataAdminBundle.sv_SE.xliff</argument>
           </argument>
         </argument>
       </argument>
@@ -3139,7 +3139,7 @@
     <service id="templating.filename_parser" class="Symfony\Bundle\FrameworkBundle\Templating\TemplateFilenameParser"/>
     <service id="templating.locator" class="Symfony\Bundle\FrameworkBundle\Templating\Loader\TemplateLocator" public="false">
       <argument type="service" id="file_locator"/>
-      <argument>C:\wamp\www\CODE\app\cache\dev</argument>
+      <argument>C:\wamp64\www\Madera MAJ\app\cache\dev</argument>
     </service>
     <service id="templating.helper.assets" class="Symfony\Bundle\FrameworkBundle\Templating\Helper\AssetsHelper">
       <tag name="templating.helper" alias="assets"/>
@@ -3165,8 +3165,8 @@
       </call>
       <call method="addXmlMappings">
         <argument type="collection">
-          <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/config/validation.xml</argument>
-          <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/config/validation.xml</argument>
+          <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/config/validation.xml</argument>
+          <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/config/validation.xml</argument>
         </argument>
       </call>
       <call method="enableAnnotationMapping">
@@ -3187,7 +3187,7 @@
         </argument>
       </call>
       <call method="addXmlMapping">
-        <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle\DependencyInjection\Compiler/../../Resources/config/storage-validation/orm.xml</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle\DependencyInjection\Compiler/../../Resources/config/storage-validation/orm.xml</argument>
       </call>
       <factory class="Symfony\Component\Validator\Validation" method="createValidatorBuilder"/>
     </service>
@@ -3223,7 +3223,7 @@
       <tag name="monolog.logger" channel="profiler"/>
       <argument type="service">
         <service class="Symfony\Component\HttpKernel\Profiler\FileProfilerStorage" public="false">
-          <argument>file:C:\wamp\www\CODE\app\cache\dev/profiler</argument>
+          <argument>file:C:\wamp64\www\Madera MAJ\app\cache\dev/profiler</argument>
           <argument></argument>
           <argument></argument>
           <argument>86400</argument>
@@ -3672,7 +3672,7 @@
         </argument>
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>58be82ce6d6574.38028695</argument>
+            <argument>58ca5e8da7b3f5.07523599</argument>
           </service>
         </argument>
       </argument>
@@ -3967,7 +3967,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>58be82ce6d6574.38028695</argument>
+            <argument>58ca5e8da7b3f5.07523599</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -4071,7 +4071,7 @@
           <argument>form_div_layout.html.twig</argument>
         </argument>
         <argument key="autoescape">name</argument>
-        <argument key="cache">C:\wamp\www\CODE\app\cache\dev/twig</argument>
+        <argument key="cache">C:\wamp64\www\Madera MAJ\app\cache\dev/twig</argument>
         <argument key="charset">UTF-8</argument>
         <argument key="paths" type="collection"/>
         <argument key="date" type="collection">
@@ -4146,7 +4146,7 @@
           <service class="Symfony\Bridge\Twig\Extension\CodeExtension" public="false">
             <tag name="twig.extension"/>
             <argument>null</argument>
-            <argument>C:\wamp\www\CODE\app</argument>
+            <argument>C:\wamp64\www\Madera MAJ\app</argument>
             <argument>UTF-8</argument>
           </service>
         </argument>
@@ -4360,7 +4360,7 @@
       <argument>twig.controller.exception:showAction</argument>
     </service>
     <service id="monolog.handler.main" class="Monolog\Handler\StreamHandler">
-      <argument>C:\wamp\www\CODE\app\logs/dev.log</argument>
+      <argument>C:\wamp64\www\Madera MAJ\app\logs/dev.log</argument>
       <argument>100</argument>
       <argument>true</argument>
       <argument>null</argument>
@@ -4472,17 +4472,17 @@
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_metadata_cache" class="Doctrine\Common\Cache\ArrayCache">
       <call method="setNamespace">
-        <argument>sf2orm_default_cf69b93b648ff22194cd2933e498e33598c854d4bae050b84ac1480b1e0c6fe4</argument>
+        <argument>sf2orm_default_405ed11efd64e61a48b71e1ccb1ae0a221e2a9e643da56875c0a96dcf82f0fa3</argument>
       </call>
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_result_cache" class="Doctrine\Common\Cache\ArrayCache">
       <call method="setNamespace">
-        <argument>sf2orm_default_cf69b93b648ff22194cd2933e498e33598c854d4bae050b84ac1480b1e0c6fe4</argument>
+        <argument>sf2orm_default_405ed11efd64e61a48b71e1ccb1ae0a221e2a9e643da56875c0a96dcf82f0fa3</argument>
       </call>
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_query_cache" class="Doctrine\Common\Cache\ArrayCache">
       <call method="setNamespace">
-        <argument>sf2orm_default_cf69b93b648ff22194cd2933e498e33598c854d4bae050b84ac1480b1e0c6fe4</argument>
+        <argument>sf2orm_default_405ed11efd64e61a48b71e1ccb1ae0a221e2a9e643da56875c0a96dcf82f0fa3</argument>
       </call>
     </service>
     <service id="doctrine.orm.default_entity_listener_resolver" class="Doctrine\Bundle\DoctrineBundle\Mapping\ContainerAwareEntityListenerResolver">
@@ -4523,7 +4523,7 @@
                     <service class="Doctrine\ORM\Mapping\Driver\AnnotationDriver" public="false">
                       <argument type="service" id="annotation_reader"/>
                       <argument type="collection">
-                        <argument>C:\wamp\www\CODE\src\AppBundle\Entity</argument>
+                        <argument>C:\wamp64\www\Madera MAJ\src\AppBundle\Entity</argument>
                       </argument>
                     </service>
                   </argument>
@@ -4533,8 +4533,8 @@
                   <argument type="service">
                     <service class="Doctrine\ORM\Mapping\Driver\SimplifiedXmlDriver" public="false">
                       <argument type="collection">
-                        <argument key="C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle\Resources\config\doctrine">FOS\UserBundle\Entity</argument>
-                        <argument key="C:\wamp\www\CODE\vendor\sonata-project\user-bundle\Resources\config\doctrine">Sonata\UserBundle\Entity</argument>
+                        <argument key="C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle\Resources\config\doctrine">FOS\UserBundle\Entity</argument>
+                        <argument key="C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle\Resources\config\doctrine">Sonata\UserBundle\Entity</argument>
                       </argument>
                       <call method="setGlobalBasename">
                         <argument>mapping</argument>
@@ -4547,8 +4547,8 @@
                   <argument type="service">
                     <service class="Doctrine\ORM\Mapping\Driver\SimplifiedXmlDriver" public="false">
                       <argument type="collection">
-                        <argument key="C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle\Resources\config\doctrine">FOS\UserBundle\Entity</argument>
-                        <argument key="C:\wamp\www\CODE\vendor\sonata-project\user-bundle\Resources\config\doctrine">Sonata\UserBundle\Entity</argument>
+                        <argument key="C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle\Resources\config\doctrine">FOS\UserBundle\Entity</argument>
+                        <argument key="C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle\Resources\config\doctrine">Sonata\UserBundle\Entity</argument>
                       </argument>
                       <call method="setGlobalBasename">
                         <argument>mapping</argument>
@@ -4561,7 +4561,7 @@
             </argument>
           </call>
           <call method="setProxyDir">
-            <argument>C:\wamp\www\CODE\app\cache\dev/doctrine/orm/Proxies</argument>
+            <argument>C:\wamp64\www\Madera MAJ\app\cache\dev/doctrine/orm/Proxies</argument>
           </call>
           <call method="setProxyNamespace">
             <argument>Proxies</argument>
@@ -5066,7 +5066,7 @@
       </argument>
       <argument type="service" id="debug.event_dispatcher"/>
     </service>
-    <service id="sonata.user.profile.form" class="Symfony\Component\Form\Form" factory-method="createNamed" factory-service="form.factory">
+    <service id="sonata.user.profile.form" class="Symfony\Component\Form\Form">
       <argument>sonata_user_profile_form</argument>
       <argument>sonata_user_profile</argument>
       <argument>null</argument>
@@ -5077,6 +5077,7 @@
         </argument>
         <argument key="translation_domain">SonataUserBundle</argument>
       </argument>
+      <factory service="form.factory" method="createNamed"/>
     </service>
     <service id="sonata.user.profile.form.type" class="Sonata\UserBundle\Form\Type\ProfileType">
       <tag name="form.type" alias="sonata_user_profile"/>
@@ -5088,7 +5089,7 @@
       <argument>getGenderList</argument>
       <argument>sonata_user_gender</argument>
     </service>
-    <service id="sonata.user.registration.form" class="Symfony\Component\Form\Form" factory-method="createNamed" factory-service="form.factory">
+    <service id="sonata.user.registration.form" class="Symfony\Component\Form\Form">
       <argument>sonata_user_registration_form</argument>
       <argument>sonata_user_registration</argument>
       <argument>null</argument>
@@ -5098,6 +5099,7 @@
           <argument>Default</argument>
         </argument>
       </argument>
+      <factory service="form.factory" method="createNamed"/>
     </service>
     <service id="sonata.user.registration.form.type" class="Sonata\UserBundle\Form\Type\RegistrationFormType">
       <tag name="form.type" alias="sonata_user_registration"/>
@@ -5666,6 +5668,7 @@
         <argument key="dropdown_number_groups_per_colums">2</argument>
         <argument key="title_mode">both</argument>
         <argument key="lock_protection">false</argument>
+        <argument key="enable_jms_di_extra_autoregistration">true</argument>
         <argument key="javascripts" type="collection">
           <argument>bundles/sonatacore/vendor/jquery/dist/jquery.min.js</argument>
           <argument>bundles/sonataadmin/vendor/jquery.scrollTo/jquery.scrollTo.min.js</argument>
@@ -5911,7 +5914,9 @@
     <service id="sonata.admin.audit.manager" class="Sonata\AdminBundle\Model\AuditManager">
       <argument type="service" id="service_container"/>
     </service>
-    <service id="sonata.admin.exporter" class="Sonata\AdminBundle\Export\Exporter"/>
+    <service id="sonata.admin.exporter" class="Sonata\AdminBundle\Export\Exporter">
+      <deprecated>The "%service_id%" service is deprecated. You should stop using it, as it will soon be removed.</deprecated>
+    </service>
     <service id="sonata.admin.search.handler" class="Sonata\AdminBundle\Search\SearchHandler">
       <argument type="service" id="sonata.admin.pool"/>
     </service>
@@ -5978,6 +5983,7 @@
         <argument key="dropdown_number_groups_per_colums">2</argument>
         <argument key="title_mode">both</argument>
         <argument key="lock_protection">false</argument>
+        <argument key="enable_jms_di_extra_autoregistration">true</argument>
         <argument key="javascripts" type="collection">
           <argument>bundles/sonatacore/vendor/jquery/dist/jquery.min.js</argument>
           <argument>bundles/sonataadmin/vendor/jquery.scrollTo/jquery.scrollTo.min.js</argument>
@@ -6066,7 +6072,7 @@
       <argument type="service" id="sonata.admin.route.cache"/>
     </service>
     <service id="sonata.admin.route.cache" class="Sonata\AdminBundle\Route\RoutesCache">
-      <argument>C:\wamp\www\CODE\app\cache\dev/sonata/admin</argument>
+      <argument>C:\wamp64\www\Madera MAJ\app\cache\dev/sonata/admin</argument>
       <argument>true</argument>
     </service>
     <service id="sonata.admin.route.cache_warmup" class="Sonata\AdminBundle\Route\RoutesCacheWarmUp">
@@ -6253,9 +6259,6 @@
       <call method="pushHandler">
         <argument type="service" id="monolog.handler.main"/>
       </call>
-      <call method="pushHandler">
-        <argument type="service" id="monolog.handler.debug"/>
-      </call>
     </service>
     <service id="monolog.logger.translation" class="Symfony\Bridge\Monolog\Logger">
       <argument>translation</argument>
@@ -6264,9 +6267,6 @@
       </call>
       <call method="pushHandler">
         <argument type="service" id="monolog.handler.main"/>
-      </call>
-      <call method="pushHandler">
-        <argument type="service" id="monolog.handler.debug"/>
       </call>
     </service>
     <service id="monolog.logger.templating" class="Symfony\Bridge\Monolog\Logger">
@@ -6277,9 +6277,6 @@
       <call method="pushHandler">
         <argument type="service" id="monolog.handler.main"/>
       </call>
-      <call method="pushHandler">
-        <argument type="service" id="monolog.handler.debug"/>
-      </call>
     </service>
     <service id="monolog.logger.profiler" class="Symfony\Bridge\Monolog\Logger">
       <argument>profiler</argument>
@@ -6288,9 +6285,6 @@
       </call>
       <call method="pushHandler">
         <argument type="service" id="monolog.handler.main"/>
-      </call>
-      <call method="pushHandler">
-        <argument type="service" id="monolog.handler.debug"/>
       </call>
     </service>
     <service id="monolog.logger.router" class="Symfony\Bridge\Monolog\Logger">
@@ -6301,9 +6295,6 @@
       <call method="pushHandler">
         <argument type="service" id="monolog.handler.main"/>
       </call>
-      <call method="pushHandler">
-        <argument type="service" id="monolog.handler.debug"/>
-      </call>
     </service>
     <service id="monolog.logger.php" class="Symfony\Bridge\Monolog\Logger">
       <argument>php</argument>
@@ -6313,14 +6304,11 @@
       <call method="pushHandler">
         <argument type="service" id="monolog.handler.main"/>
       </call>
-      <call method="pushHandler">
-        <argument type="service" id="monolog.handler.debug"/>
-      </call>
     </service>
     <service id="monolog.logger.event" class="Symfony\Bridge\Monolog\Logger">
       <argument>event</argument>
       <call method="pushHandler">
-        <argument type="service" id="monolog.handler.debug"/>
+        <argument type="service" id="monolog.handler.null_internal"/>
       </call>
     </service>
     <service id="monolog.logger.security" class="Symfony\Bridge\Monolog\Logger">
@@ -6331,22 +6319,12 @@
       <call method="pushHandler">
         <argument type="service" id="monolog.handler.main"/>
       </call>
-      <call method="pushHandler">
-        <argument type="service" id="monolog.handler.debug"/>
-      </call>
     </service>
     <service id="monolog.logger.doctrine" class="Symfony\Bridge\Monolog\Logger">
       <argument>doctrine</argument>
       <call method="pushHandler">
         <argument type="service" id="monolog.handler.main"/>
       </call>
-      <call method="pushHandler">
-        <argument type="service" id="monolog.handler.debug"/>
-      </call>
-    </service>
-    <service id="monolog.handler.debug" class="Symfony\Bridge\Monolog\Handler\DebugHandler">
-      <argument>100</argument>
-      <argument>true</argument>
     </service>
     <service id="monolog.handler.null_internal" class="Monolog\Handler\NullHandler"/>
     <service id="form.extension" class="Sonata\CoreBundle\Form\Extension\DependencyInjectionExtension">
@@ -6628,7 +6606,7 @@
       <argument type="collection"/>
     </service>
     <service id="session.storage.filesystem" class="Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorage">
-      <argument>C:\wamp\www\CODE\app\cache\dev/sessions</argument>
+      <argument>C:\wamp64\www\Madera MAJ\app\cache\dev/sessions</argument>
       <argument>MOCKSESSID</argument>
       <argument type="service" id="session.storage.metadata_bag"/>
     </service>
@@ -6652,9 +6630,9 @@
     <service id="router" class="Symfony\Bundle\FrameworkBundle\Routing\Router">
       <tag name="monolog.logger" channel="router"/>
       <argument type="service" id="service_container"/>
-      <argument>C:\wamp\www\CODE\app/config/routing_dev.yml</argument>
+      <argument>C:\wamp64\www\Madera MAJ\app/config/routing_dev.yml</argument>
       <argument type="collection">
-        <argument key="cache_dir">C:\wamp\www\CODE\app\cache\dev</argument>
+        <argument key="cache_dir">C:\wamp64\www\Madera MAJ\app\cache\dev</argument>
         <argument key="debug">true</argument>
         <argument key="generator_class">Symfony\Component\Routing\Generator\UrlGenerator</argument>
         <argument key="generator_base_class">Symfony\Component\Routing\Generator\UrlGenerator</argument>
@@ -6678,7 +6656,7 @@
       </argument>
       <argument type="service">
         <service class="Doctrine\Common\Cache\FilesystemCache" public="false">
-          <argument>C:\wamp\www\CODE\app\cache\dev/annotations</argument>
+          <argument>C:\wamp64\www\Madera MAJ\app\cache\dev/annotations</argument>
         </service>
       </argument>
       <argument>true</argument>
@@ -6707,9 +6685,6 @@
       </call>
       <call method="pushHandler">
         <argument type="service" id="monolog.handler.main"/>
-      </call>
-      <call method="pushHandler">
-        <argument type="service" id="monolog.handler.debug"/>
       </call>
       <autowiring-type>Psr\Log\LoggerInterface</autowiring-type>
     </service>
@@ -6857,69 +6832,69 @@
       <argument type="service" id="templating.locator"/>
       <argument type="service" id="templating.name_parser"/>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle/Resources/views</argument>
         <argument>Framework</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Bundle\SecurityBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Bundle\SecurityBundle/Resources/views</argument>
         <argument>Security</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle/Resources/views</argument>
         <argument>Twig</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\vendor\symfony\swiftmailer-bundle/Resources/views</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\swiftmailer-bundle/Resources/views</argument>
         <argument>Swiftmailer</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\vendor\doctrine\doctrine-bundle/Resources/views</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\doctrine\doctrine-bundle/Resources/views</argument>
         <argument>Doctrine</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\friendsofsymfony\user-bundle\FOS\UserBundle/Resources/views</argument>
         <argument>FOSUser</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\vendor\sonata-project\user-bundle/Resources/views</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\user-bundle/Resources/views</argument>
         <argument>SonataUser</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\vendor\sonata-project\core-bundle/Resources/views</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\core-bundle/Resources/views</argument>
         <argument>SonataCore</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\vendor\sonata-project\block-bundle/Resources/views</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\block-bundle/Resources/views</argument>
         <argument>SonataBlock</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\vendor\knplabs\knp-menu-bundle/Resources/views</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\knplabs\knp-menu-bundle/Resources/views</argument>
         <argument>KnpMenu</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\vendor\sonata-project\doctrine-orm-admin-bundle/Resources/views</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\doctrine-orm-admin-bundle/Resources/views</argument>
         <argument>SonataDoctrineORMAdmin</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\vendor\sonata-project\admin-bundle/Resources/views</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\sonata-project\admin-bundle/Resources/views</argument>
         <argument>SonataAdmin</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Bundle\DebugBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Bundle\DebugBundle/Resources/views</argument>
         <argument>Debug</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle/Resources/views</argument>
         <argument>WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\app/Resources/views</argument>
+        <argument>C:\wamp64\www\Madera MAJ\app/Resources/views</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\vendor\symfony\symfony\src\Symfony\Bridge\Twig/Resources/views/Form</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\symfony\symfony\src\Symfony\Bridge\Twig/Resources/views/Form</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp\www\CODE\vendor\knplabs\knp-menu\src\Knp\Menu/Resources/views</argument>
+        <argument>C:\wamp64\www\Madera MAJ\vendor\knplabs\knp-menu\src\Knp\Menu/Resources/views</argument>
       </call>
     </service>
     <service id="knp_menu.menu_provider" class="Knp\Menu\Provider\ChainProvider">
